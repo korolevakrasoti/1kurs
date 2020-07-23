@@ -1,0 +1,109 @@
+﻿.menu        
+{
+height:8%;
+background:#F5DEB3;
+}
+.menu ul
+{
+overflow: auto;
+}
+.menu li
+{
+list-style-type: none;
+padding:1%;
+float:left;
+}
+.menu li a
+{
+font:14px "Times New Roman", Times, serif;
+color:#00BFFF;
+text-decoration: none;
+}
+.menu ul > li:hover{
+background-color:#fff;
+}
+.table_blur {
+  background: #f5ffff;
+  border-collapse: collapse;
+  text-align: left;
+}
+.table_blur th {
+  border-top: 1px solid #777777;	
+  border-bottom: 1px solid #777777; 
+  box-shadow: inset 0 1px 0 #999999, inset 0 -1px 0 #999999;
+  background: linear-gradient(#9595b6, #5a567f);
+  color: white;
+  padding: 10px 15px;
+  position: relative;
+}
+.table_blur th:after {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 25%;
+  height: 25%;
+  width: 100%;
+  background: linear-gradient(rgba(255, 255, 255, 0), rgba(255,255,255,.08));
+}
+.table_blur tr:nth-child(odd) {
+  background: #ebf3f9;
+}
+.table_blur th:first-child {
+  border-left: 1px solid #777777;	
+  border-bottom:  1px solid #777777;
+  box-shadow: inset 1px 1px 0 #999999, inset 0 -1px 0 #999999;
+}
+.table_blur th:last-child {
+  border-right: 1px solid #777777;
+  border-bottom:  1px solid #777777;
+  box-shadow: inset -1px 1px 0 #999999, inset 0 -1px 0 #999999;
+}
+.table_blur td {
+  border: 1px solid #e3eef7;
+  padding: 10px 15px;
+  position: relative;
+  transition: all 0.5s ease;
+}
+.table_blur tbody:hover td {
+  color: transparent;
+  text-shadow: 0 0 3px #a09f9d;
+}
+.table_blur tbody:hover tr:hover td {
+  color: #444444;
+  text-shadow: none;
+}
+.button21 {
+  display: inline-block;
+  width: 5em;
+  height: 2em;
+  line-height: 2em;
+  vertical-align: middle;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  color: rgb(0,0,0);
+  outline: none;
+  border: 1px solid rgba(0,0,0,.4);
+  border-top-color: rgba(0,0,0,.3);
+  border-radius: 2px;
+  background: linear-gradient(rgb(255,255,255), rgb(240,240,240));
+  box-shadow:
+   0 0 3px rgba(0,0,0,0) inset,
+   0 1px 1px 1px rgba(255,255,255,.2),
+   0 -1px 1px 1px rgba(0,0,0,0);
+  transition: .2s ease-in-out;
+}
+.button21:hover:not(:active) {
+  box-shadow:
+   0 0 3px rgba(0,0,0,0) inset,
+   0 1px 1px 1px rgba(0,255,255,.5),
+   0 -1px 1px 1px rgba(0,255,255,.5);
+}
+.button21:active {
+  background: linear-gradient(rgb(250,250,250), rgb(235,235,235));
+  box-shadow:
+   0 0 3px rgba(0,0,0,.5) inset,
+   0 1px 1px 1px rgba(255,255,255,.4),
+   0 -1px 1px 1px rgba(0,0,0,.1);
+}
